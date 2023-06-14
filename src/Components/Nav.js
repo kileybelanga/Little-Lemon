@@ -2,16 +2,16 @@
 
 function Nav() {
     return (
-      <Nav>
+      <nav>
         <ul>
             <li>Home</li>
             <li>About</li>
-            <li>Menue</li>
+            <li>Menu</li>
             <li>Reservations</li>
             <li>Order Online</li>
             <li>Login</li>
         </ul>
-      </Nav>
+      </nav>
     );
   }
   export default Nav;

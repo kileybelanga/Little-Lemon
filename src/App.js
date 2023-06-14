@@ -1,11 +1,12 @@
-
+import React from 'react';
+import Nav from './/Components/Nav.js';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-   homepage
-    </div>
+    <React.Fragment className="App">
+<Nav />
+    </React.Fragment>
   );
 }
 
