@@ -1,0 +1,67 @@
+.text-white{
+    color: white;
+}
+
+.headerMain{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.heroMain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    background-color:#495E57;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+
+.imageMain{
+background-image:linear-gradient(to right, rgba(73, 93, 86, 1), rgba(73, 93, 86, 0)),
+url('/public/restauranfood.jpg');
+height: 400px;
+width: 50%;
+background-repeat: no-repeat; 
+background-size: cover;
+background-position: center;}
+
+@media only screen and (max-width: 600px) {
+    .imageMain {
+       width: 100%;
+       background-image:linear-gradient(to bottom, rgba(73, 93, 86, 1), rgba(73, 93, 86, 0)),
+       url('/public/restauranfood.jpg');
+     }
+   }
+
+   .textMain{
+    width: 50%;
+   }
+   @media only screen and (max-width: 600px) {
+    .textMain {
+       width: 100%;
+     }
+   }
+   .innerText{
+    padding: 30px;
+   }
+
+   .p-12{
+    font-size: 14px;
+   }
+
+
+   button {
+    background-color: #F4CE14;
+    border: none;
+    color: #495E57;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+   }
+
