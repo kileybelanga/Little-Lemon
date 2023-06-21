@@ -49,19 +49,12 @@ background-position: center;}
    }
 
    .p-12{
-    font-size: 14px;
+    font-size: .9em;
    }
 
-
-   button {
-    background-color: #F4CE14;
-    border: none;
-    color: #495E57;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 16px;
+   h1 {
+    font-size: 2em;
+    margin-bottom: -15px;
    }
+
 

@@ -25,7 +25,7 @@ function Header() {
        Little Lemon's ever-evolving seasonal menu showcases the restaurant's relationships with 
         local farms and purveyors.</p>
 
-        <button onClick={reserve}>Reserve a Table</button>
+        <button className='button-primary'onClick={reserve}>Reserve a Table</button>
         </div>
         </div>
     <div className='imageMain'>
