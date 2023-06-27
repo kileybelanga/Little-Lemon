@@ -2,7 +2,7 @@
 function Footer() {
     return (
     <div>
-        footer
+        good job u arent zach
     </div>
     );
   }

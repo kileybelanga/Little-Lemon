@@ -18,7 +18,7 @@ function Header() {
     <section className='heroMain'>
         <div className='textMain'>
             <div className="innerText">
-    <h1 className="text-white">Little Lemon</h1>
+    <h1 className="text-white headerName">Little Lemon</h1>
     <p className="text-white">Chicago</p>
     <p className='text-white p-12'>One of Chicago's most beloved restaurants, Little Lemon has welcomed guests to enjoy 
         its contemporary American cuisine, warm hospitality, and unparalleled service for over two decades. 

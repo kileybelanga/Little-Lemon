@@ -22,3 +22,13 @@
       cursor: pointer;
       border-radius: 16px;
    }
+
+   .sectionHeader{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+      margin: 0 auto;
+      padding: 3rem;
+      font-size: 1.5rem;
+  }

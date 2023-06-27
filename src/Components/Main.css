@@ -1,0 +1,49 @@
+.sectionHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 0 auto;
+    padding: 3rem;
+    font-size: 1.5rem;
+}
+.specialsCards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.wrapper{
+    overflow: hidden;
+    box-shadow: 0 2px 10px lightgrey ;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+div > img{
+    height: 12rem;
+    width:100%;
+    object-fit: cover;
+}
+
+.cardTitle{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.cardDescription{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: .8rem;
+}
+
+.cardButton{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 1rem;
+}
