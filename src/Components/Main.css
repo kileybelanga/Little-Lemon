@@ -1,4 +1,5 @@
-.sectionHeader{
+
+ .sectionHeader{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -6,7 +7,9 @@
     margin: 0 auto;
     padding: 3rem;
     font-size: 1.5rem;
+    width: 75% ;
 }
+
 .specialsCards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(12rem, 16rem));
@@ -42,7 +45,7 @@ div > img{
     font-size: .8rem;
 }
 
-.cardButton{
+#cardButton{
     padding-left: 1rem;
     padding-right: 1rem;
     margin: 1rem;

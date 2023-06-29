@@ -1,9 +1,18 @@
 
 function Footer() {
     return (
-    <div>
-        good job u arent zach
-    </div>
+    <footer>
+        <section>
+        <div>
+            logo
+        </div>
+        <div>
+            <div>
+             nav   
+            </div>
+        </div>
+        </section>
+    </footer>
     );
   }
   export default Footer;

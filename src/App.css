@@ -9,6 +9,7 @@
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 16px;
+    font-weight: bold;
    }
 
    .button-secondary{
@@ -21,14 +22,9 @@
       margin: 4px 2px;
       cursor: pointer;
       border-radius: 16px;
+      font-weight: bold;
    }
 
-   .sectionHeader{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 50px;
-      margin: 0 auto;
-      padding: 3rem;
-      font-size: 1.5rem;
-  }
+   h1{
+      color:#495E57
+   }

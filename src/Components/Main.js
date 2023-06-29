@@ -1,4 +1,4 @@
-import './Main.css'
+import './Main.css';
 
 
 function orderOnline(){
@@ -14,7 +14,7 @@ function Card(props){
     <img src= {props.img} alt=" "/>
     <h1 className='cardTitle'>{props.title}</h1>
     <p className='cardDescription'>{props.description}</p>
-    <button className='button-secondary cardButton'>Order Online</button>
+    <button className='button-secondary' id="cardButton">Order Online</button>
 </div>
 </div>
     )
@@ -45,3 +45,4 @@ description="House made bread toasted and topped with tomatoes."/>
     );
   }
   export default Main;
+ 
