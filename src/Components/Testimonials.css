@@ -1,6 +1,6 @@
 
  .testimonialSection{
-    background-color:#fdf7d9;
+    background-color:#F4CE14;
     height: fit-content;
     padding-bottom:2rem;
  }
@@ -17,6 +17,7 @@
     background-color: #fefdf9;
     height:150px;
     padding: 1rem;
+    border-radius: 2px;
 
 }
 

@@ -1,0 +1,24 @@
+footer > section {
+background-color: rgb(247, 249, 244);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footerLogo{
+    width: 200px;
+    height: auto;
+    padding:20px;
+}
+
+.socialWrapper{
+    display: flex;
+    justify-content: flex-end;
+    color: #495E57;
+}
+
+.socialIcon{
+    margin: 0;
+    padding-left:0;
+    padding-right: 1rem;
+}

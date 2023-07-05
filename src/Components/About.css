@@ -1,0 +1,59 @@
+
+.aboutHeadline {
+    color:#495E57;
+    font-size: 2rem;
+}
+
+.aboutCopy{
+    color:lightslategray;
+}
+.aboutMain{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    background-color:white;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+
+.chefImage{
+background-image:linear-gradient(to right, rgb(255, 255, 255), rgba(73, 93, 86, 0)),
+url('/public/chef.jpg');
+height: 400px;
+width: 50%;
+background-repeat: no-repeat; 
+background-size: cover;
+background-position: center;}
+
+@media only screen and (max-width: 600px) {
+    .chefImage {
+       width: 100%;
+       background-image:linear-gradient(to bottom, rgba(73, 93, 86, 1), rgba(73, 93, 86, 0)),
+       url('/public/chef.jpg');
+     }
+   }
+
+   .textMain{
+    width: 50%;
+   }
+   @media only screen and (max-width: 600px) {
+    .textMain {
+       width: 100%;
+     }
+   }
+   .innerText{
+    padding: 30px;
+   }
+
+   .p-12{
+    font-size: .9em;
+   }
+
+   .headerName {
+    font-size: 2rem;
+    margin-bottom: -15px;
+   }
+
+
