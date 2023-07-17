@@ -4,14 +4,35 @@ a {
     text-decoration: none;
 }
 
-li {
-    display: inline;
+.navigation li {
+    display: inline-block;
     padding: 10px;
 }
 
-ul {
+.navigation ul {
     list-style-type: none;
-    margin: 0;
+
   }
 
+.navigation .MobileNav{
+    display: none;
+}
+
+@media (max-width: 990px){
+    .navigation .DesktopNav {
+        display: none;
+    }
+
+    .navigation .MobileNav{
+        display: flex;
+        align-items: center;
+        background-color: blue;
+    }
+
+    .navigation .MobileNav .hamburger{
+    position: absolute;
+    right:5%;
+    cursor:pointer;  
+    }
+}
 

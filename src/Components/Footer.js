@@ -21,7 +21,7 @@ function Footer() {
     return (
     <footer>
         <section>
-        <div className ="">
+        <div>
         <img className = "footerLogo" src="/logo.png" alt='Logo for Little Lemon Restaurant.'/>
         </div>
         <div>

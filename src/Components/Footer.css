@@ -3,12 +3,13 @@ background-color: rgb(247, 249, 244);
    display: flex;
    justify-content: space-between;
    align-items: center;
+   padding:40px;
 }
 
 .footerLogo{
     width: 200px;
     height: auto;
-    padding:20px;
+  
 }
 
 .socialWrapper{
