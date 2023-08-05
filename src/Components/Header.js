@@ -1,18 +1,15 @@
 import Nav from './Nav.js'
 import './Header.css'
 import React from 'react';
+import {Link} from 'react-router-dom'
 
-function reserve(){
-    return (
-        alert('You clicked me!')
-    )
-};
 
 function Header() {
+
     return (
         <React.Fragment>
         <section className='headerMain'>
-        <img src="/logo.png" alt='Logo for Little Lemon Restaurant.' width='200px' height='auto'/>
+        <Link to ="/"><img src="/logo.png" alt='Logo for Little Lemon Restaurant.' width='200px' height='auto'/></Link>
       <Nav />
       </section>
     <section className='heroMain'>
@@ -25,7 +22,7 @@ function Header() {
        Little Lemon's ever-evolving seasonal menu showcases the restaurant's relationships with 
         local farms and purveyors.</p>
 
-        <button className='button-primary'onClick={reserve}>Reserve a Table</button>
+        <Link to ="/reservations"> <button className='button-primary'>Reserve a Table</button></Link>
         </div>
         </div>
     <div className='imageMain'>

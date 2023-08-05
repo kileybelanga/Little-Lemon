@@ -1,9 +1,10 @@
 import './/Nav.css';
+import {Link} from 'react-router-dom'
 
 function Navlinks() {
     return (
         <ul>
-            <li><a href='kileybelanga.com'> Home </a></li>
+            <li><Link to ="/"> Home </Link></li>
             <li><a href='kileybelanga.com'>About</a></li>
             <li><a href='kileybelanga.com'>Menu</a></li>
             <li><a href='kileybelanga.com'>Reservations</a></li>

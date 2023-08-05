@@ -1,5 +1,5 @@
 import './Footer.css'
-import Nav from './Nav.js'
+import Navlinks from './Navlinks.js'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faThumbsUp, faHashtag, faCamera} from '@fortawesome/free-solid-svg-icons'
 
@@ -21,13 +21,13 @@ function Footer() {
     return (
     <footer>
         <section>
-        <div>
+
         <img className = "footerLogo" src="/logo.png" alt='Logo for Little Lemon Restaurant.'/>
-        </div>
-        <div>
-             <Nav/>
-           <SocialIcons />
-        </div>
+        <nav className="footerNav">
+    <Navlinks className="footerNav"/>
+      </nav>
+        <SocialIcons />
+
         </section>
     </footer>
     );

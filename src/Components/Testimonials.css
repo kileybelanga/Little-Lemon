@@ -32,15 +32,16 @@
 .testimonialWrapper{
     overflow: hidden;
     display:flex;
-    flex-direction: column;
     justify-content: space-between;
 }
 .ratingWrapper{
-display: inline-block;
+display: flex;
+flex-direction: row;
 color: #495E57;
 margin: 0;
 padding:1rem;
 padding-bottom: 0;
+list-style-type: none;
 }
 
 .ratingStar{

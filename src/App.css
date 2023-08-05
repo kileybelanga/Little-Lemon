@@ -10,6 +10,21 @@
     cursor: pointer;
     border-radius: 16px;
     font-weight: bold;
+    cursor: pointer;
+   }
+
+   .button-primary:hover {
+   background-color:  #495E57;
+   border-color: #F4CE14;
+   border-style: solid;
+   color:#F4CE14;
+   }
+
+   .button-primary:active{
+      background-color:  #334942;
+      border-color: #F4CE14;
+      border-style: solid;
+      color:#F4CE14; 
    }
 
    .button-secondary{
@@ -25,10 +40,18 @@
       font-weight: bold;
    }
 
+   .button-secondary:hover {
+      background-color: #334942;
+      }
+   
+      .button-secondary:active{
+         background-color: #334942;
+         border-style: solid;
+         border-color: #F4CE14;
+      }
+
    h1{
       color:#495E57
    }
 
-   .socialFooter > {
-      ;
-   }
+  

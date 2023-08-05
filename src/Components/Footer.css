@@ -16,6 +16,7 @@ background-color: rgb(247, 249, 244);
     display: flex;
     justify-content: flex-end;
     color: #495E57;
+    list-style-type: none;
 }
 
 .socialIcon{
@@ -23,3 +24,10 @@ background-color: rgb(247, 249, 244);
     padding-left:0;
     padding-right: 1rem;
 }
+
+
+@media (max-width: 990px){
+    footer > section{
+       display: flex;
+       flex-direction: column;
+    }}
