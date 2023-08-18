@@ -1,0 +1,44 @@
+form{
+    display: flex;
+    justify-content: center;
+
+}
+
+fieldset{
+    border:none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+fieldset > div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+
+.Field{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap:5px;
+}
+
+.Field > input{
+  height: 25px;
+}
+
+
+Button{
+    width: 200px;
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+
+select{
+    height: 30px;
+    width: 210px;
+}

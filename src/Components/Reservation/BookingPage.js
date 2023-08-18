@@ -12,9 +12,7 @@ function BookingPage() {
   <Link to ="/"> <img src="/logo.png" alt='Logo for Little Lemon Restaurant.' width='200px' height='auto'/></Link>
       <Nav />
       </section>
-      <section>
-        form
-      </section>
+     
       <Form />
       <Footer/>
     </React.Fragment>
